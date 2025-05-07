@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<style>
+			.myDiv {
+				width: 90%;
+				margin: auto;
+				text-align: justify;
+			}
+      .container {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          justify-content: space-between;
+          margin: 20px 0;
+      }
+
+      .figure {
+          display: flex;
+          float: right;
+          flex-direction: column;
+          align-items: center; /* Center the caption below the image */
+          margin: 0;
+          max-width: 500px
+      }
+
+      .responsive-img {
+          width: 100%;
+          height: auto; /* Maintain aspect ratio */
+          margin-right: 0px; /* Space between image and text */
+          margin-left: 20px;
+      }
+
+
+      .figure_left {
+          display: flex;
+          float: left;
+          flex-direction: column;
+          align-items: center; /* Center the caption below the image */
+          margin: 0;
+          max-width: 500px
+      }
+      .responsive-img_left {
+          width: 100%;
+          height: auto; /* Maintain aspect ratio */
+          margin-right: 40px; /* Space between image and text */
+          margin-left: 0px;
+      }
+
+      .responsive-img_gif {
+          width: 100%;
+          height: auto; /* Maintain aspect ratio */
+          margin-right: 0px; /* Space between image and text */
+          margin-left: 40px;
+      }
+
+      .text-left {
+          margin: 0; /* Remove default margin for better alignment */
+      }
+      .caption {
+          margin-top: 10px; /* Space between image and caption */
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-bottom: 10px;
+          text-align: justify; /* Center the caption text */
+          font-style: italic; /* Optional: italicize caption text */
+          color: #555; /* Optional: change the color of the caption */
+      }
+      .text {
+          clear: both; /* Ensure the paragraph clears the figure and floats */
+          margin-top: 30px; /* Optional: add space between the figure and paragraph */
+          text-align: right; /* Align the text to the right side of the page */
+      }
+      .topnav {
+        display: flex;
+        justify-content: left; /* Center the button horizontally */
+      }
+
+      .topnav a {
+        display: inline-block;
+        padding: 10px 20px; /* Adjust the padding for size */
+        margin: 0 15px; /* Space between buttons, if you have more */
+        font-size: 16px; /* Adjust text size */
+        color: black; /* Text color */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+      }
+
+		</style>
+		<!-- <title>Lyman Beta</title> -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+    <div class="topnav">
+      <!-- <a class="active" href="index.html">Home</a> -->
+      <a class="active" href="projects_overview.html">Previous</a>
+    </div>
+
+    <section class="wrapper style1 align-left" id="first">
+      <div class="inner">
+        <!-- <h2>Items</h2> -->
+        <center>
+          <h1>Academic research projects</h1>
+        </center>
+              </div>
+            </section>
+    <!-- <section class="wrapper style1 align-center"> -->
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+      <div class="myDiv">
+        <figure class="figure">
+          <img align="right"
+               src="images/magmom_regressor.png"
+                alt="Mock"
+                class="responsive-img">
+                <figcaption class="caption">Figure 1. Extra Trees Regressor model for magnetic moments</figcaption>
+        </figure>
+      <h3>Machine Learning Predictions of the Magnetic Properties of Inorganic Materials</h3>
+      <p>
+        At UCR, I led a machine learning based project and collaborated closely with experts in solid-state chemistry, materials science, and energy-related technologies to explore the prediction and analysis of intermetallic compounds using materials informatics and machine learning techniques. This experience significantly enhanced my data science expertise, particularly within materials discovery. Initially, I built a strong foundation through comprehensive literature reviews to gain domain expertise. Then, using this knowledge, I identified a novel research objective aimed at accurately predicting material properties and accelerating materials discovery. <B>I then curated an extensive dataset of 8438 intermetallic compounds from the Materials Project high-throughput computational database</B>, with a strong emphasis on effective <B>feature engineering</B> and featurization strategies <B>to extract meaningful compositional and structural descriptors using materials data mining tools such as MatMiner and Pymatgen Python libraries</B>. I then applied advanced machine learning models, such as, Extra Trees, gradient boosting algorithms and neural networks, to uncover meaningful patterns. This work enabled us to achieve efficient and accurate prediction of magnetic properties for intermetallic compounds, providing novel insights into material behavior and <B>resulting in the discovery of 544 promising, never-before-synthesized Ti<sub>3</sub>Co<sub>5</sub>B<sub>2</sub>-type boride candidates</B>. My findings have been presented at peer-reviewed conferences such as ACS and are available online <a href="https://acs.digitellinc.com/b/sp/johan-yapo-170185">here</a>.
+        <!-- and/or read a summary of my work at UW here. -->
+        </p>
+
+
+
+        <h3 class="text"> DFT studies on Earth-Abundant Transition Metal Borides (TMBs) as electro-catalysts for Hydrogen Evolution Reaction (HER)</h3>
+        <figure class="figure_left">
+          <img align="left"
+               src="images/CoB_HER_mechanism.png"
+                alt="Mock"
+                class="responsive-img_left">
+                <figcaption class="caption">Figure 2. Mechanistic representation on the (111) plane of CoB showing H-adsorption (hollow Co-Co-B site) and H2-desoprtion via H---H binding (dashed red line) with an H weakly adsorbed (dashed blue line) on Co.</figcaption>
+        </figure>
+      <p>
+        In parallel, for project 2 of my PhD, I have also contributed to research in electrocatalysis, particularly focused on the hydrogen evolution reaction (HER). I investigated the catalytic behavior of transition metal borides (TMBs) and other earth abundant intermetallic compounds using a of density functional theory (DFT) simulation techniques. By analyzing the energetics of intermediate adsorption and surface stability, I helped identify promising candidates for earth-abundant, high-performance HER catalysts. This work emphasized not only predictive modeling but also the importance of connecting electronic structure insights with catalytic activity trends. Our findings contributed to a deeper understanding of the structure–property relationships that govern electrocatalytic performance in these complex materials systems.. These works highlight the of structure-property relationships understanding the mechanism behind HER catalysis and its importance in guiding the design of electro-catalysts and future of cheap, large-sclaing renewable energy resources. This project resulted in a total of 5 co-first authored papers. Read these papers <a href="https://scholar.google.com/citations?user=lbKNe9QAAAAJ&hl=en"">here</a>.
+        <!-- and/or read a summary of this project here. -->
+        </p>
+
+
+        <h3 class="text"> </h3>
+        <center>
+        <h3> Artificial Intelligence Assisted Cosmological Simulations, UCR office of DEI </h3>
+        </center>
+        <p>
+          Add DEI stuff here.
+            </p>
+            </div>
+
+    <div class="container">
+            <figure class="figure">
+              <img src="images/LR_eul_cropped_infty.gif" alt="LR" class="responsive-img">
+                    <figcaption class="caption">Figure 3. </figcaption>
+            </figure>
+            <figure class="figure_left">
+                <img src="images/HR_eul_cropped_infty.gif" alt="HR" class="responsive-img_left">
+                <figcaption class="caption">Figure 4. </figcaption>
+            </figure>
+
+          </div>
+
+
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/johan-yapo-phd/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:johan.achy.yapo@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/johan-yapo" class="icon brands style2 fa-github"><span class="label">github</span></a></li>
+							<p>&copy; Johan A. Yapo. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+<!-- 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script> -->
+
+	</body>
+</html>
